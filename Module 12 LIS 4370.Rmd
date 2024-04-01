@@ -1,0 +1,40 @@
+---
+title: "Module 12 LIS 4370 R Markdown"
+author: "Nicholas Baumeister"
+output: html_document
+---
+
+#Load library
+```{r, "Step 1"} 
+#Load libraries for this assignment
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Read in-built dataset mtcars
+
+```{r, "Step 2"} 
+data("mtcars")
+```
+
+##View first and last rows of mtcars
+```{r, "Step 3"}
+head(mtcars)
+tail(mtcars)
+```
+
+#Get dimensions of mtcars
+```{r, "Step 4"}
+dim(mtcars)
+```
+
+#Get colnames of mtcars
+```{r, "Step 5"}
+colnames(mtcars)
+```
+
+#Get summary of mtcars
+
+```{r, "Step 6"}
+summary(mtcars)
+```
+---
