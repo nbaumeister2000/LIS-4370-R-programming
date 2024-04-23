@@ -1,11 +1,11 @@
 Package: Baumeister
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Final project
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: "Nicholas Baumeister <nbaumeister@usf.edu> [aut, cre]"
+Maintainer: The package maintainer <nbaumeister@usf.edu>
+Description: This package contains functions from the The Environment and Climate Change Canada Data. Depends: R (>= 3.1.2)
+Imports: pryr, lattice, methods
+License: CC0
 Encoding: UTF-8
 LazyData: true
